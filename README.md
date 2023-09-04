@@ -24,6 +24,8 @@ Modify the openai_service.ChatGPTAPI function to include your own prompt or cont
 This project uses the following flutter packages https://pub.dev/packages/flutter_chat_ui
 The package acts as a main source to design the chat interface. Credits to the developers for creating an amazing and simple package to easily build chat interfaces. 
 
+Note: This project is for learning purposes to easily understand the differnt modules involved in build a chatbot from scratch. Please follow the packages for more information and follow best practices when building your application. 
+
 This project is a starting point for a Chatbot Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
