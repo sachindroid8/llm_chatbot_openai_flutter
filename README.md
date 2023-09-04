@@ -1,10 +1,30 @@
 # llm_chatbot_openai
 
-A new Flutter project.
+A very simple chatbot application using OpenAI API that can be deployed to multiple platforms like web, desktop and mobile with Flutter. A Flutter project with chat ui and using OpenAI API service. 
 
-## Getting Started
+## Complete Tutorial walkthrough to build from scratch
+Refer the youtube video for a full walkthrough with key concepts on how to build a multi-platform chatbot with OpenAI and Flutter. 
+[Video Tutorial: Build Your Own Multi-Platform Chatbot with OpenAI and Flutter | Easy Step-by-Step Guide](https://youtube.com/live/9m-HK9SiZoA)
 
-This project is a starting point for a Flutter application.
+## Configure API Key
+
+Obtain your OpenAI API key and replace the key in openai_service.dart file. 
+static const apiKey = '<PLACE YOUR API KEY HERE>'; 
+
+## Modify the prompt to your use case
+
+Modify the openai_service.ChatGPTAPI function to include your own prompt or context for the API. 
+
+{
+      "role": "user",
+      "content":
+          "<REPLACE THIS WITH YOUR CONTEXT ABOUT YOUR CHATBOT>.$prompt",
+}
+
+This project uses the following flutter packages https://pub.dev/packages/flutter_chat_ui
+The package acts as a main source to design the chat interface. Credits to the developers for creating an amazing and simple package to easily build chat interfaces. 
+
+This project is a starting point for a Chatbot Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
